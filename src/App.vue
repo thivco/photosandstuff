@@ -1,6 +1,20 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import Navbar from './components/navbar/Navbar.vue'
+
+import { ref, computed } from 'vue'
+import Home from './components/pages/Home.vue'
+import About from './components/pages/About.vue'
+import Gallery from './components/pages/Gallery.vue'
+import Gigs from './components/pages/Gigs.vue'
+
+const routes = {
+  '/': Home,
+  '/gigs': Gigs,
+  '/gallery': Gallery,
+  '/about': About
+}
+
 </script>
 
 <template>
