@@ -1,3 +1,8 @@
+<script>
+</script>
+
 <template>
-    <p>Gigs ici</p>
 </template>
+
+<style>
+</style>

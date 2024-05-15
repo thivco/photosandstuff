@@ -1,3 +1,8 @@
+<script>
+</script>
+
 <template>
-    <p>Maison mere ici</p>
 </template>
+
+<style>
+</style>
