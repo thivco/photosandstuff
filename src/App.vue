@@ -1,8 +1,14 @@
 <script>
+import Navbar from "./components/Navbar.vue"
+// import { routes } from "./main.js"
+// console.log(routes);
 </script>
 
 <template>
   <p>Hello</p>
+  <Navbar />
+    <!-- <router-link to="/">Home</router-link>
+    <router-link to="/contact">Contact</router-link> -->
   <router-view></router-view>
 </template>
 
